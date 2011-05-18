@@ -1,0 +1,76 @@
+
+.social { list-style:none; margin:0px auto; width:464px; }
+.social li { display:inline; float:right; background-repeat:no-repeat; }
+.social li a { display:block; width:48px; height:48px; padding-right:10px; position:relative; text-decoration:none; }
+.social li a strong { font-weight:normal; position:absolute; left:20px; top:-1px; color:#fff; padding:3px; z-index:9999;
+ text-shadow:1px 1px 0 rgba(0, 0, 0, 0.75); background-color:rgba(0, 0, 0, 0.7);
+ -moz-border-radius:3px; -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); -webkit-border-radius:3px; -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); border-radius:3px; box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+li.delicious { background-image:url("../images/circ/delicious-32x32.png"); }
+li.digg { background-image:url("../images/circ/digg-32x32.png"); }
+li.facebook { background-image:url("../images/circ/facebook-32x32.png"); }
+li.flickr { background-image:url("../images/circ/flickr-32x32.png"); }
+li.linkedin { background-image:url("../images/circ/youtube-32x32.png"); }
+li.reddit { background-image:url("../images/circ/reddit-32x32.png"); }
+li.rss { background-image:url("../images/circ/rss-32x32.png"); }
+li.twitter { background-image:url("../images/circ/twitter-32x32.png"); }
+
+#footerSlideContainer {
+	position: fixed;
+	bottom:0;
+	width: 100%;
+}
+#footerSlideButton {
+	background: url("../images/footer_arrow2.png") top left no-repeat transparent;
+	background-color:#000000;	
+	position: absolute;
+	top: -0px;
+	right: 20px;
+	width:30px;
+	height:20px;
+	border: none;
+	cursor: pointer;
+}
+#footerSlideContent {
+	width: 100%;
+	height: 60px;
+	background: #251b15;
+	color: #CCCCCC;
+	font-size: 0.8em;
+	border: none;
+	font-family: DejaVuSansBook, Sans-Serif;
+}
+#footerSlideContent h3 {
+	font-size: 36px;
+	color: #9AC941;
+	margin: 10px 0 10px 0;
+}
+#footerSlideContent ul {
+	color: #EE8D40;
+	list-style-type: none;
+	line-height: 2em;
+}
+#footerSlideText {
+	padding: 15px 10px 25px 25px;
+	text-align:right;
+}
+#lookHere {
+	font-family: DejaVuSansBook, Sans-Serif;
+}
+#lookHere h1, #lookHere h2 {
+	font-size: 20em;
+	padding: 0;
+	margin: 0;
+	color: #AAAAAA;
+}
+#lookHere h2 {
+	font-size: 1.5em;
+	margin: 0 0 0 30px;
+}
+#lookHere span.orange {
+	color: #EE8D40;
+}
+#lookHere span.green {
+	color: #9AC941;
+}
