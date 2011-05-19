@@ -1,0 +1,104 @@
+	.x-btn-print {
+						background-image:url('../images/icons/silk/printer.png') !important;
+				}
+				
+	.x-btn-calendar {
+						background-image:url('../images/icons/silk/calendar.png') !important;
+				}			
+	.x-btn-comments {
+						background-image:url('../images/icons/silk/comments_add.png') !important;
+				}	
+	.x-btn-call {
+						background-image:url('../images/icons/silk/phone.png') !important;
+				}
+	.x-btn-proposal {
+						background-image:url('../images/icons/silk/layout.png') !important;
+				}						
+	.x-btn-filter {
+						background-image:url('../images/icons/silk/application_view_list.png') !important;
+				}			
+				
+		.x-btn-xls {
+						background-image:url('../images/icons/silk/page_excel.png') !important;
+				}						
+		.x-btn-copy {
+						background-image:url('../images/icons/silk/page_white_copy.png') !important;
+				}					
+.x-btn-save {
+						background-image:url('../images/icons/silk/disk.png') !important;
+				}
+					
+.x-btn-cancel {
+						background-image:url('../images/icons/silk/cancel.png') !important;
+				}	
+				
+.x-btn-switch {
+						background-image:url('../images/icons/silk/arrow_switch.png') !important;
+				}	
+				
+.x-btn-newcontact {
+						background-image:url('../images/icons/silk/user_add.png') !important;
+				}						
+
+.x-btn-deletecontact {
+						background-image:url('../images/icons/silk/user_delete.png') !important;
+				}						
+					
+.x-btn-submit {
+						background-image:url('../images/icons/silk/email_go.png') !important;
+				}		
+				
+				
+.x-btn-ok {
+						background-image:url('../images/icons/silk/accept.png') !important;
+				}
+				
+.x-btn-info {
+						background-image:url('../images/icons/silk/information.png') !important;
+				}	
+				
+							.new-report {
+	background-image:url(../images/icons/silk/application_form_add.png) !important;
+	width: 25px;
+	height:25px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	}	
+				
+				
+				.run-report {
+	background-image:url(../images/icons/silk/application_lightning.png) !important;
+	width: 25px;
+	height: 75px;
+	background-repeat: no-repeat;
+	background-position: center top;
+	}	
+				.delete-report {
+	background-image:url(../images/icons/silk/application_form_delete.png) !important;
+	width: 25px;
+	height: 75px;
+	background-repeat: no-repeat;
+	background-position: center top;
+				}	
+				.edit-report {
+	background-image:url(../images/icons/silk/application_form_edit.png) !important;
+	width: 25px;
+	height: 75px;
+	background-repeat: no-repeat;
+	background-position: center top;
+				}				
+
+#grid1 .x-grid3-header {
+    display:none;
+}
+#grid1 .x-grid3-row {
+ margin:5px;
+
+}
+.delete {
+	background-image:url(../images/icons/silk/delete.png) !important;
+	width: 25px;
+	height: 25px;
+	background-repeat: no-repeat;
+	background-position: center top;
+				}	

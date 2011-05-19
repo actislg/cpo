@@ -19,7 +19,7 @@ $('#container').load('http://google.com'); // SERIOUSLY!
 });
  */
 $.ajax({
-    url: 'http://localhost/jpreport/json2.php?DB=jpreport&SQL=select * from jp_dc',
+    url: 'http://localhost/cpo/server_php/sites_c.php?action=getsite&id=cpo',
     type: 'GET',
 	dataType:'json',
     success: function(res) {

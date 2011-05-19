@@ -17,10 +17,18 @@ li.rss { background-image:url("../images/circ/rss-32x32.png"); }
 li.twitter { background-image:url("../images/circ/twitter-32x32.png"); }
 
 #footerSlideContainer {
-	position: fixed;
-	bottom:0;
+	
+	position: relative;
+	top:0;
+	margin:auto;
 	width: 100%;
 }
+
+#border_bottom{
+	background: url("../images/tab_b.png") repeat-x 0 0;
+	height:15px;
+}
+
 #footerSlideButton {
 	background: url("../images/footer_arrow2.png") top left no-repeat transparent;
 	background-color:#000000;	
@@ -33,18 +41,21 @@ li.twitter { background-image:url("../images/circ/twitter-32x32.png"); }
 	cursor: pointer;
 }
 #footerSlideContent {
+	
 	width: 100%;
-	height: 60px;
-	background: #251b15;
+	height: 40px;
+	background: #272727;
+	overflow: hidden;
 	color: #CCCCCC;
 	font-size: 0.8em;
 	border: none;
 	font-family: DejaVuSansBook, Sans-Serif;
+	
 }
 #footerSlideContent h3 {
 	font-size: 36px;
 	color: #9AC941;
-	margin: 10px 0 10px 0;
+	margin: 0px ;
 }
 #footerSlideContent ul {
 	color: #EE8D40;
@@ -52,7 +63,7 @@ li.twitter { background-image:url("../images/circ/twitter-32x32.png"); }
 	line-height: 2em;
 }
 #footerSlideText {
-	padding: 15px 10px 25px 25px;
+	padding: 3px 3px 3px 3px;
 	text-align:right;
 }
 #lookHere {
