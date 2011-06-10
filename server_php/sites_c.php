@@ -93,7 +93,27 @@ function delete($id){
  * @param id {integer} cliente indentifier
  **/
 function generate_code($id){
-	
+$gen='<script type="text/javascript">function _loadcpo() {
+  var s = document.createElement("script");
+  s.setAttribute("type", "text/javascript");
+  s.setAttribute("src", ("https:" == document.location.protocol ? "https://" : "http://") + "localhost/cpo/server_php/program_footer.php?key=:code");
+  document.getElementsByTagName("head")[0].appendChild(s);
+  var css = document.createElement("link");
+  css.setAttribute("type", "text/css");
+  css.setAttribute("rel", "stylesheet");
+  css.setAttribute("href", ("https:" == document.location.protocol ? "https://" : "http://") + "localhost/cpo/css/style.css");
+  document.getElementsByTagName("head")[0].appendChild(css);
+_loadSuper = window.onload;
+window.onload = (typeof window.onload != "function") ? _loadcpo : function() { _loadSuper(); _loadcpo(); };
+</script>';	
+$gen=str_replace(":code",$id,$gen);	
+$gen=base64_encode($gen);
+$code="{data:'".$gen."'}";
+
+
+
+echo $code;
+return $code;	
 }
 
 

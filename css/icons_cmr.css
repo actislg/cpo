@@ -86,7 +86,15 @@
 	height: 75px;
 	background-repeat: no-repeat;
 	background-position: center top;
-				}				
+				}	
+				
+				.gen-report {
+	background-image:url(../images/icons/silk/application_go.png) !important;
+	width: 25px;
+	height: 75px;
+	background-repeat: no-repeat;
+	background-position: center top;
+				}			
 
 #grid1 .x-grid3-header {
     display:none;

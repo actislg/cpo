@@ -11,11 +11,14 @@ li.delicious { background-image:url("../images/circ/delicious-32x32.png"); }
 li.digg { background-image:url("../images/circ/digg-32x32.png"); }
 li.facebook { background-image:url("../images/circ/facebook-32x32.png"); }
 li.flickr { background-image:url("../images/circ/flickr-32x32.png"); }
-li.linkedin { background-image:url("../images/circ/youtube-32x32.png"); }
+li.linkedin { background-image:url("../images/circ/linkedin-32x32.png"); }
+li.youtube{ background-image:url("../images/circ/youtube-32x32.png"); }
 li.reddit { background-image:url("../images/circ/reddit-32x32.png"); }
 li.rss { background-image:url("../images/circ/rss-32x32.png"); }
 li.twitter { background-image:url("../images/circ/twitter-32x32.png"); }
-
+body{
+	margin:0px;
+}
 #footerSlideContainer {
 	
 	position: relative;
@@ -23,19 +26,23 @@ li.twitter { background-image:url("../images/circ/twitter-32x32.png"); }
 	margin:auto;
 	width: 100%;
 }
-
+#cpo_network{
+	width:50%;
+	float:left;
+}
 #border_bottom{
 	background: url("../images/tab_b.png") repeat-x 0 0;
 	height:15px;
 }
 
 #footerSlideButton {
-	background: url("../images/footer_arrow2.png") top left no-repeat transparent;
-	background-color:#000000;	
+	background: url("../images/bt_open.png") top left no-repeat transparent;
+	
 	position: absolute;
-	top: -0px;
-	right: 20px;
-	width:30px;
+	top: 10px;
+	
+	right: 10px;
+	width:20px;
 	height:20px;
 	border: none;
 	cursor: pointer;
@@ -63,7 +70,8 @@ li.twitter { background-image:url("../images/circ/twitter-32x32.png"); }
 	line-height: 2em;
 }
 #footerSlideText {
-	padding: 3px 3px 3px 3px;
+	float:right;
+	padding: 3px 90px 3px 3px;
 	text-align:right;
 }
 #lookHere {
@@ -84,4 +92,119 @@ li.twitter { background-image:url("../images/circ/twitter-32x32.png"); }
 }
 #lookHere span.green {
 	color: #9AC941;
+}
+
+
+
+#panel h1 {
+	font-size: 1.6em;
+	padding: 5px 0 10px;
+	margin: 0;
+	color: white;
+}
+
+#panel h2{
+	font-size: 1.2em;
+	padding: 10px 0 5px;
+	margin: 0;
+	color: white;
+}
+
+#panel p {
+	margin: 5px 0;
+	padding: 0;
+}
+
+#panel a {
+	text-decoration: none;
+	color: #15ADFF;
+}
+
+#panel a:hover {
+	color: white;
+}
+
+#panel a-lost-pwd {
+	display: block;
+	float: left;
+}
+
+#panel .content {
+	width: 960px;
+	margin: 0 auto;
+	padding-top: 15px;
+	text-align: left;
+	font-size: 0.85em;
+}
+
+#panel .content .left {
+	width: 280px;
+	float: left;
+	padding: 0 15px;
+	border-left: 1px solid #333;
+}
+
+#panel .content .right {
+	border-right: 1px solid #333;
+}
+
+#panel .content form {
+	margin: 0 0 10px 0;
+}
+
+#panel .content label {
+	float: left;
+	padding-top: 8px;
+	clear: both;
+	width: 280px;
+	display: block;
+}
+
+#panel .content input.field {
+	border: 1px #1A1A1A solid;
+	background: #414141;
+	margin-right: 5px;
+	margin-top: 4px;
+	width: 200px;
+	color: white;
+	height: 16px;
+}
+
+#panel .content input:focus.field {
+	background: #545454;
+}
+
+/* BUTTONS */
+/* Login and Register buttons */
+#panel .content input.bt_login,
+#panel .content input.bt_register {
+	display: block;
+	float: left;
+	clear: left;
+	height: 24px;
+	text-align: center;
+	cursor: pointer;
+	border: none;
+	font-weight: bold;
+	margin: 10px 0;
+}
+
+#panel .content input.bt_login {
+	width: 74px;
+	background: transparent url(../images/bt_login.png) no-repeat 0 0;
+}
+
+#panel .content input.bt_register {
+	width: 94px;
+	color: white;
+	background: transparent url(../images/bt_register.png) no-repeat 0 0;
+}
+
+#panel .lost-pwd {
+	display: block;
+	float:left;
+	clear: right;
+	padding: 15px 5px 0;
+	font-size: 0.95em;
+	text-decoration: underline;
 }

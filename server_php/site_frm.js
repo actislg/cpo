@@ -47,6 +47,13 @@ var tFace=new Ext.form.TextField({
                     anchor:'95%'
                 });
 
+
+var tLink=new Ext.form.TextField({
+						
+                    fieldLabel: 'LinkedIn',
+                    name: 'linkedin',
+                    anchor:'95%'
+                });
 var tYouTube=new Ext.form.TextField({
 						
                     fieldLabel: 'YouTube',
@@ -91,7 +98,7 @@ function createData(){
 	arr["tweeter"]=tTweeter.getValue();
 	arr["rss"]=tRss.getValue();
 	arr["bgcolor"]=Ext.getDom("colorPicker").value;
-	jsn='{"company":"'+tCompany.getValue()+'","website":"'+tWebSite.getValue()+'","descr":"'+tDesc.getValue()+'","facebook":"'+tFace.getValue()+'","youtube":"'+tYouTube.getValue()+'","tweeter":"'+tTweeter.getValue()+'","rss":"'+tRss.getValue()+'","bgcolor":"'+Ext.getDom("colorPicker").value+'" }';
+	jsn='{"company":"'+tCompany.getValue()+'","linkedin":"'+tLink.getValue()+'","website":"'+tWebSite.getValue()+'","descr":"'+tDesc.getValue()+'","facebook":"'+tFace.getValue()+'","youtube":"'+tYouTube.getValue()+'","tweeter":"'+tTweeter.getValue()+'","rss":"'+tRss.getValue()+'","bgcolor":"'+Ext.getDom("colorPicker").value+'" }';
 	hData.setValue(jsn);
 	console.log(jsn);
 	
@@ -107,7 +114,7 @@ var formSite = new Ext.FormPanel({
            labelAlign: 'left',
            id:'top3',
            layout: 'form',
-           items:[hData,hId,tCompany,tWebSite,tDesc,tFace,tYouTube,tTweeter,tRss,{
+           items:[hData,hId,tCompany,tWebSite,tDesc,tFace,tLink,tYouTube,tTweeter,tRss,{
 xtype:"colorPicker",
 name:'bgcolor'
 }],
